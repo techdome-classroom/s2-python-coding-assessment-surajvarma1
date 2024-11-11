@@ -1,12 +1,7 @@
-class Solution(object):
-    def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
-        bracket_map = {')': '(', '}': '{', ']': '['}
+class Solution:
+    def isValid(self, s: str) -> bool:
         stack = []
-        
+        bracket_map = {')': '(', '}': '{', ']': '['}
         for char in s:
             if char in bracket_map:
                 top_element = stack.pop() if stack else '#'
@@ -14,13 +9,7 @@ class Solution(object):
                     return False
             else:
                 stack.append(char)
-        
         return not stack
-
-
-solution = Solution()
-
-print(solution.isValid(input()))
 
 
 
