@@ -10,6 +10,9 @@ class Solution:
             else:
                 stack.append(char)
         return not stack
+solution = Solution()
+
+print(solution.isValid(input()))
 
 
 
