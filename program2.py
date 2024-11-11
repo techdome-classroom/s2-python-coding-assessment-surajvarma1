@@ -17,8 +17,8 @@ class Solution(object):
         return total
 
 # Example usage:
-solution = Solution()
-print(solution.romanToInt(input()))     
+sol= Solution()
+print(sol.romanToInt(input()))     
    
 
 
