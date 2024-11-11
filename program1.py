@@ -16,8 +16,11 @@ class Solution(object):
                 stack.append(char)
         
         return not stack
-        
-print(isValid(input()))
+
+
+solution = Solution()
+
+print(solution.isValid(input()))
 
 
 
