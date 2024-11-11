@@ -8,7 +8,7 @@ class Solution(object):
         
         total = 0
         for i in range(len(s)):
-            # If the current value is less than the next value, subtract it
+           
             if i + 1 < len(s) and roman_map[s[i]] < roman_map[s[i + 1]]:
                 total -= roman_map[s[i]]
             else:
@@ -16,9 +16,6 @@ class Solution(object):
         
         return total
 
-# Example usage:
-sol= Solution()
-print(sol.romanToInt(input()))     
    
 
 
