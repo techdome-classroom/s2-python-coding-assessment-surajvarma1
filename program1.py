@@ -16,7 +16,8 @@ class Solution(object):
                 stack.append(char)
         
         return not stack
-
+        
+print(isValid(input()))
 
 
 
