@@ -17,11 +17,6 @@ class Solution(object):
         
         return not stack
 
-# Create an instance of Solution
-solution = Solution()
-
-# Call the isValid method on the instance
-print(solution.isValid(input()))
 
 
 
